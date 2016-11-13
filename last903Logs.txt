@@ -1,0 +1,2315 @@
+commit f0f2b761833184c595c9e000dce61a938fa2516d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 29 19:44:10 2016 -0400
+
+    fix eslint
+
+commit bdb4b80595f4bd7a3368679f4e2ba9a512a18bbd
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 29 19:40:53 2016 -0400
+
+    update examples to use filters
+
+commit 2f0222b41c516799ed3c75e252affb6048ebfc51
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 29 19:31:32 2016 -0400
+
+    layout test files
+
+commit 72b74a23e4a3c797f73ce32413203040070bea5a
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 29 19:26:09 2016 -0400
+
+    improve v-for unit tests
+
+commit 2679653362b08d3115ccfbba6cf92ac313e69171
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 29 18:42:20 2016 -0400
+
+    test for Vue.compile
+
+commit e275b75af8bb5eb9c409beca5fa65c7b037fa176
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 29 18:39:52 2016 -0400
+
+    test/fix global filter registration
+
+commit 9ff87a357eba00e40d44a2d5a25f6ac44fca70b9
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 29 16:09:12 2016 -0400
+
+    support filters inside text interpolations
+
+commit f9613c5aced93479d4ac999c16bb01d981a8c797
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 29 16:05:19 2016 -0400
+
+    ignore dist files in babel
+
+commit b66be950f54cf3294f23db34e9e0a3ba09ce9ada
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 29 14:29:36 2016 -0400
+
+    support inline-template
+
+commit 6d889c011680f231ed5036b9233f23764c43e16a
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 29 13:41:00 2016 -0400
+
+    simplify children updates
+
+commit 08f813f06eed72f4206045434ffa3063fda25b88
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 29 01:02:59 2016 -0400
+
+    optimize whitespace vnode
+
+commit 378a6fd53e589d485d0e3980ea3e3f5cfa8c75a2
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 28 23:18:11 2016 -0400
+
+    support delimiters as a component level option
+
+commit 3b5716117962a4f8ca49ea6c1b4bb7975d584cb6
+Author: Phan An <me@phanan.net>
+Date:   Fri Apr 29 08:54:20 2016 +0800
+
+    Replace var with proper let/const (#2757)
+
+commit 5a43d32142c7209488f91691100b05df34d4572e
+Author: Phan An <me@phanan.net>
+Date:   Fri Apr 29 08:45:24 2016 +0800
+
+    Add a default font style (#2755)
+
+commit 8e34f455adf95c286bcfbaa8e22fb266fcd7bf77
+Author: Phan An <me@phanan.net>
+Date:   Fri Apr 29 08:45:14 2016 +0800
+
+    Some improvements for "Modal" example (#2754)
+    
+    * Rename CSS file to match with other examples
+    
+    * Merge script tags
+
+commit 60ec66be6882194d805e19e227fc4962cbd2c1fb
+Author: Phan An <me@phanan.net>
+Date:   Fri Apr 29 08:44:52 2016 +0800
+
+    CSS fixes for "Grid" example (#2753)
+
+commit 6f06f1b724ad1dd394eb18b7ca71a711a2bbbcb8
+Author: Phan An <me@phanan.net>
+Date:   Fri Apr 29 08:44:36 2016 +0800
+
+    Expose the author URL in "commits" example (#2751)
+
+commit da7f2731e2824e1c869760cc0263cae68224e367
+Author: razh <razh@users.noreply.github.com>
+Date:   Wed Apr 27 15:22:17 2016 -0400
+
+    fix x-template typo in select2 example (#2748)
+
+commit b756a6418df7fcb38060660f6f7508aeb2aea24e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 27 14:13:58 2016 -0400
+
+    add links to readme [ci skip]
+
+commit cab88c50bbafc6bb79ca0ae8e1903138788c2372
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 27 13:19:05 2016 -0400
+
+    fix child component v-on spec
+
+commit 680bd042c9398e27937fadf0ba1b3806ad007a30
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 27 13:13:01 2016 -0400
+
+    fix v-on test capture
+
+commit 25efaf21630e5c28a4b6761dfa8f17638392a2a3
+Author: Jinjiang <zhaojinjiang@me.com>
+Date:   Thu Apr 28 01:07:25 2016 +0800
+
+    [next] v-on test (#2741)
+    
+    * ensure babel-env during build
+    
+    * v-on test
+    
+    * fixed build script
+
+commit 681dc603e46ee09b22e2f9432ab60b598d4f07fd
+Author: Blake Newman <blakenoodles@gmail.com>
+Date:   Wed Apr 27 18:07:10 2016 +0100
+
+    added v-once directive unit tests (#2740)
+
+commit e04c55c4a4d5b3eb8d0702352fad73653ba06b9d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 27 05:27:41 2016 -0400
+
+    move ssr modules/directives assembling into platform specific directories
+
+commit f123bd397c4ea3d347a0986990ed98f6996f3643
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 27 04:06:44 2016 -0400
+
+    forbid tags with side-effects in templates
+
+commit 9f312effa3da6e6fb944ff1a4e4f7aee47ad32d4
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 27 01:34:41 2016 -0400
+
+    add ignored files for todomvc
+
+commit ed5149001033056248e9b5be85b64ee4d31516de
+Author: Fady Makram <fmakram1@gmail.com>
+Date:   Tue Apr 26 19:02:24 2016 -0400
+
+    Update package.json
+
+commit 2792f3c95e0ce5e1166e0a677cedb55e37de9535
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 26 13:29:27 2016 -0400
+
+    readme, version, add dist files
+
+commit 8d31fadc5aae642c33568937158cd983e03e7a8b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 26 13:19:55 2016 -0400
+
+    set ci NODE_ENV explicitly
+
+commit 7f92bd9cea428d6237ae5d47af8ed0d55568d0d4
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 26 13:13:13 2016 -0400
+
+    attempting to fix ci
+
+commit 1b8ef949a10189829564acc69a919b4cd61a763b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 26 13:01:13 2016 -0400
+
+    update build
+
+commit 26b776fa814fc0e6c80b1dfd773bf3c05937a225
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 26 11:10:11 2016 -0400
+
+    add placeholders for unit tests
+
+commit 45e1af4daec0fb041b10cefab5c57369162ac910
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 26 11:03:57 2016 -0400
+
+    add reference links to benchmarks
+
+commit f0bae1155b5f46213f925da1c156d55fa62a233b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 26 01:09:19 2016 -0400
+
+    drop ssr ci for now
+
+commit 6b793961c974dee882e39c03681f7a7c18ab1d55
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 26 01:05:34 2016 -0400
+
+    fix ssr babel-env on ci
+
+commit aea4f39964a1f35082856f9f0e5c21d48cfd281b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 26 00:47:14 2016 -0400
+
+    fix duplicate import
+
+commit 4191f251afd5f9706238e43f0c818ecce1358a49
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 26 00:42:49 2016 -0400
+
+    adjust ssr API so that user can provide server-side implementations for custom directives
+
+commit 3c7aafa17bb1c78798bae6c2533e1b87db8dd12d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 23:39:12 2016 -0400
+
+    add circle config file
+
+commit 3dc6088d5377740f3c4680f1a231f8432b49de21
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 23:36:29 2016 -0400
+
+    use more reliable display check for v-show tests (fix it in PhantomJS)
+
+commit bf14a05f3e7a19bc19cabeeb45a925548b7987a9
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 23:32:49 2016 -0400
+
+    fix spelling
+
+commit f5509333342d2d0b9f64d2a0e4962177b8756db1
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 23:30:48 2016 -0400
+
+    fix unit tests in Firefox/Safari
+
+commit 657ba390c7ac117f06c724b53c2a565837817212
+Author: Jinjiang <zhaojinjiang@me.com>
+Date:   Tue Apr 26 11:25:59 2016 +0800
+
+    directives v-for v-html v-text v-show (#7)
+    
+    * v-text & v-html tests
+    
+    * new es2015 syntax
+    
+    * passed v-html test
+    
+    * fixed if/for/else render update bug
+    
+    * fixed if/for/else render update bug
+    
+    * added v-else with v-if test
+    
+    * added v-if test with v-else and v-for
+    
+    * fixed code format
+    
+    * fixed Vue.delete bug
+    
+    * v-for test
+
+commit a347820518388ae8c83cf8c665823daebfbd0da8
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 23:09:46 2016 -0400
+
+    fix hydration bugs
+
+commit c8e91ab24ee7eb7f4d75af893f9bb8b873a14aa3
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 22:23:16 2016 -0400
+
+    client-side hydration
+
+commit 38540b07e4a1213413005e58833a63cc12ca0361
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 21:29:58 2016 -0400
+
+    add server-rendered mark for ssr output
+
+commit 9a2c8db4c81201e14e1fec73d4c87bb3a56d82b6
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 19:30:33 2016 -0400
+
+    get rid of new function in core so that runtime is fully CSP-compliant
+
+commit 79f3e905744332061861761f3f232e2e33267d58
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 19:20:59 2016 -0400
+
+    further tweak render stream
+
+commit a9ee5c9db40480e3c378d5d75551ce1ffeb0fc2b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 19:15:27 2016 -0400
+
+    small tweak to ssr
+
+commit d08cf7c320ace3f304721ed0da3efd1000488bcf
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 19:10:33 2016 -0400
+
+    streaming renderer!
+
+commit 2111709e579fdc64e1bfff7b3f8eb03bcc723eb9
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 17:15:46 2016 -0400
+
+    assert setting state in created hook works in ssr
+
+commit 575d55f07816a6cadb4c2f3716353c3fb30fb26e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 16:45:42 2016 -0400
+
+    fix ssr hoc
+
+commit 018b0e54407b802e2954c0f1458d587ad23e5eb1
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 16:43:30 2016 -0400
+
+    ssr hoc component (failing)
+
+commit 83ea6ef85d3669069aaf29606b36c784aee25b16
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 16:37:20 2016 -0400
+
+    update ssr with tests
+
+commit fff89dff1e201cc4bc48507ebbc51d738eec8da0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 13:44:28 2016 -0400
+
+    add waitForUpdate as allowed global in unit tests
+
+commit 4540aaf37d33835a93759fdefffa0fd8a3f15068
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 13:43:22 2016 -0400
+
+    fix async failure
+
+commit 75ce539b4970b890b4f28be788bcff8d048dc0c3
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 13:37:19 2016 -0400
+
+    use custom async chaining assertion utility
+
+commit 7169d14179ee468dd42ab328d136e9ceb3796202
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 13:17:59 2016 -0400
+
+    update if tests
+
+commit 9b681f7cf0f4c1455e5aba0ad70bf31c1e4d25e1
+Author: Jinjiang <zhaojinjiang@me.com>
+Date:   Tue Apr 26 01:02:17 2016 +0800
+
+    fixed if/for/else render update bug (#8)
+    
+    * fixed if/for/else render update bug
+    
+    * added v-else with v-if test
+    
+    * added v-if test with v-else and v-for
+    
+    * removed unnecessary elseBlock detect in optimizer
+
+commit e649795596863918de2b99d9ab112065a2264ebf
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 12:58:37 2016 -0400
+
+    improve linting
+
+commit 84549215bfc772d8cbc20ccd6bb768eb51a9993c
+Author: Jinjiang <zhaojinjiang@me.com>
+Date:   Tue Apr 26 00:46:19 2016 +0800
+
+    global api tests (#6)
+    
+    * Vue.set & Vue.delete tests
+    
+    * more global api tests
+    
+    * new es2015 syntax
+
+commit f629b345c4aa5320dba8496566330f179e7a0306
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 25 00:06:33 2016 -0400
+
+    decouple renderer logic and web platform
+
+commit ae7054f4e9e63f8f82bd95e8c2308e551c92bca8
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 23:53:53 2016 -0400
+
+    fix ssr for child components
+
+commit d3b598a2197b9d60f360ce7de1e6c3faa3388b51
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 23:53:46 2016 -0400
+
+    fix hyperscript direct string as children
+
+commit 73bc99e30b937ac7f097c02acb681a4da452697d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 23:42:13 2016 -0400
+
+    basic ssr
+
+commit f4a2afb3b33991c1694e8fcb7d62641c30eeaf53
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 23:31:07 2016 -0400
+
+    expose context on vnode, simplify render methods
+
+commit 9f5b292e30019a1597bc38429b039b39b7064598
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 23:06:39 2016 -0400
+
+    ssr directives
+
+commit 95a0f3c56c74cca6ff7ea3a992848b163acd803c
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 22:52:58 2016 -0400
+
+    naive ssr implementation
+
+commit 14feb83879fe32fc9c54eddf33c6c5ef2fb4e8a2
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 22:01:55 2016 -0400
+
+    move web-specific utils
+
+commit d3851371a1a6311f1c582e6cbb36e2cddf75545c
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 19:24:17 2016 -0400
+
+    ssr wip
+
+commit d6ce314c35bcc2a05d30ed14f18b21b5b81d928d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 17:58:19 2016 -0400
+
+    ssr wip
+
+commit 0b21d2d005821a1e7d7e37566b775e7b024c1d9d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 17:53:46 2016 -0400
+
+    move namespaceMap into web/util
+
+commit 6b84d8eaf8249380f5fe878fe8605a2141448df4
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 17:16:45 2016 -0400
+
+    ship compiler in the same package instead
+
+commit 936e3dac63ace191430dc37532a3662d3303e402
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 17:12:34 2016 -0400
+
+    remove beforeMount and mounted hook
+
+commit c947fddedd853e973f9f6503d98064c0055acc26
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 16:57:57 2016 -0400
+
+    exposed compile function should be cached version
+
+commit 4e431a5236407cc2a5936fa52fda4ea088c138bb
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 16:50:25 2016 -0400
+
+    support direct string as children
+
+commit 1a21db9c9aef437122de86cb2dbc30c1feff8166
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 15:14:20 2016 -0400
+
+    restructure for server rendering
+
+commit a65b4faa13053829e9ad2863fc0539b6b8aef565
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 14:49:33 2016 -0400
+
+    simplify namespace detection
+
+commit 1dab15508f421dfffc2fe567487158c4841f9c92
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 14:39:35 2016 -0400
+
+    basic mathml support
+
+commit 213aaf3203005fd996b46e1ecae7e9e523c57f46
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 24 13:29:38 2016 -0400
+
+    use arrow fns in tests
+
+commit 4c6ed93a36e68b15bbefc0cef2fc6d1a4f8afe0b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 22:47:54 2016 -0400
+
+    global config tests
+
+commit a04ff9dcc7d77c8239840d0ae2638b2be5ee44c5
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 22:46:01 2016 -0400
+
+    remove deprecated code
+
+commit e3717b88e42a504afbff5c24f1a712b506496d0c
+Author: Jinjiang <zhaojinjiang@me.com>
+Date:   Sun Apr 24 17:30:01 2016 +0800
+
+    fixed devDeps about rollup-plugin-alias
+
+commit 9ce36930212359a8d357d8285a79ff1103cfa9a3
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 20:00:38 2016 -0400
+
+    setup unit test
+
+commit 6dd3d5b4c4913216abad90cdb8d1ce4b3ba60fba
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 17:06:43 2016 -0400
+
+    add a step to commits e2e test
+
+commit e7f021fc9b99046e385d3e9646b8fe45bf1d63c0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 16:57:44 2016 -0400
+
+    add build aliases for easier importing
+
+commit cf8253cdd98af34090d8ef5a21489314a4325c4f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 16:15:53 2016 -0400
+
+    fix platform compiler directives
+
+commit 955e2f839175fadbd0218f7b78c48ebbbcca6349
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 16:12:19 2016 -0400
+
+    restructure (build pass)
+
+commit ec5bcefca73160e6d283b8a0c4e1457f42f87081
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 13:37:47 2016 -0400
+
+    tweak namespace changes
+
+commit 6a8f36d0a48263b0552668c0e5111f3de8dc38f9
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 13:16:58 2016 -0400
+
+    simplify component
+
+commit 6e251e0721b4dbb4896999df78450d912dcba30d
+Author: Jinjiang <zhaojinjiang@me.com>
+Date:   Sun Apr 24 01:29:31 2016 +0800
+
+    Change svg parameter to namespace (#3)
+    
+    * change svg parameter into namespace
+    
+    * fixed svg to namespace bug
+    
+    * change svg detecting into namespace detecting in parser
+    
+    * fixed eslint error
+
+commit 065dc31e8ae66e3f8df3514f02b9f12682f23961
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 01:26:36 2016 -0400
+
+    more tweak to render function caching
+
+commit 10da27ed74ea8548f7428d6a9de97149296eb6ef
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 01:01:26 2016 -0400
+
+    fix runtime mount render function caching
+
+commit d046467734715c02228fd8fa8a176340e83a0523
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 00:31:11 2016 -0400
+
+    remove casperjs dep
+
+commit 76b821de0d80e755001d326b1840d417e02f4e42
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 23 00:13:22 2016 -0400
+
+    fix runtime-only mount
+
+commit 6a000c3b5adf5af07327fa53c4b04bb925a0ac2b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 22 23:39:53 2016 -0400
+
+    support array for checkbox v-model & :value bindings for non-strings
+
+commit ad00f3d42acbd1519862b6f9461ff626e0cbbbd1
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 22 15:54:02 2016 -0400
+
+    support .trim modifier on v-model
+
+commit 7abe8ff99c1cf33930196481160ba834a2dcfa9b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 22 15:36:19 2016 -0400
+
+    support v-once
+
+commit e89d2cba53c90b72ca3d90036f7bfdc065822b73
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 22 15:27:02 2016 -0400
+
+    fix template slot
+
+commit caf2828c62b6d59043a9e8bdeeb805dda5668534
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 22 14:58:44 2016 -0400
+
+    make reorder benchmark valid html
+
+commit 959a95999a47a981617a034485c7404c6dc1fdc7
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 22 14:34:00 2016 -0400
+
+    cache decodeHTML
+
+commit 16e54740f55628a99420b085c05eecea779dbfc0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 22 14:18:47 2016 -0400
+
+    move staticTree init into runtime $mount
+
+commit 8c64a0eeece77e94dd12ede0430fd56b7791caf4
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 22 14:06:10 2016 -0400
+
+    fix static detection for built-ins
+
+commit b882844f6ed8fb9e7d0ba493fcdd10a95d17b497
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 22 13:21:17 2016 -0400
+
+    optimize static trees
+
+commit 54eca49e8492913bb9872789280a7b5fc97cbb54
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 23:15:47 2016 -0400
+
+    tweak
+
+commit a5ea9020d1e4c22888db9dcb2153c446393371a6
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 23:00:10 2016 -0400
+
+    add optimizer
+
+commit b225de7fec9166d3d9f0331f62cca48953466486
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 22:41:03 2016 -0400
+
+    support dynamic slot target
+
+commit d0c99b1cdbb0af08ce035ba6b2f3f1f6d320ad17
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 19:29:35 2016 -0400
+
+    make modal test more stable in chrome (all e2e tests pass)
+
+commit a9fbc0b738f0c24c7c31de917dd34624f8459e1d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 19:24:23 2016 -0400
+
+    remove old e2e tests
+
+commit 5807adcf1fb8c5b7052cb901fbbcdcc4063a81b0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 19:23:13 2016 -0400
+
+    e2e test for todomvc
+
+commit c942793b8ce255d45807edaffbf4a54bc5846218
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 18:19:09 2016 -0400
+
+    e2e tests for tree
+
+commit 6170a55d15fcf2395dcda1c3b2505a237a139165
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 18:02:08 2016 -0400
+
+    e2e test for svg
+
+commit b38b4b290719087ade5403bb9f38b84e278d81b5
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 17:54:34 2016 -0400
+
+    fix watch in firefox again + e2e test for select2
+
+commit f9c3d70526cb22e0fdcab0dd4fc15d77bdc5905f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 17:33:51 2016 -0400
+
+    modal e2e test
+
+commit f8be60ce6969f89987470e56b1afdca40440edd7
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 17:30:04 2016 -0400
+
+    fix transition on appear
+
+commit c403f5635b5a489b0884232b53b04af46dfa6d2d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 17:22:58 2016 -0400
+
+    grid e2e test
+
+commit 7b180cd01b84f582408317c2ef7073fb36cd1945
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 17:10:54 2016 -0400
+
+    commits e2e test
+
+commit 0220fc310e35be280226c071704334f61f2f6730
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 17:03:43 2016 -0400
+
+    allow runner to run sub tests
+
+commit 04b8a7533ccf3c2dd5c8782e1fb7b193b1211e28
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 16:47:31 2016 -0400
+
+    markdown test pass
+
+commit 4d018cbe9fbe9677f9996f3b7656c81aa5bf2f48
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 16:20:29 2016 -0400
+
+    start switching to nightwatch
+
+commit 64b3b318a0557d65c3d8286e3572c58a33c1f447
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 15:31:15 2016 -0400
+
+    fix html attribute escape in Safari
+
+commit 316ba128879956eed1c8dc273c1957829e232d4d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 15:25:34 2016 -0400
+
+    fix watch option in firefox
+
+commit f25ef3f223f478627ab42333362e13d92de3c11e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 14:54:43 2016 -0400
+
+    simplify root mount
+
+commit f144d7dd2922cca2a43a0458143a609f283f5856
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 14:20:12 2016 -0400
+
+    do not update static attrs
+
+commit 45b4b3164ae960d4b4fb7017946e7704904b731f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 12:40:42 2016 -0400
+
+    fix reorder benchmark
+
+commit 9a347e02b4b1fd8ddc51db6c2ba08a1831f4dfd0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 12:37:12 2016 -0400
+
+    allow data to be undefined
+
+commit 9c3d7146520fa8ab64cf6446c3c4e32998f0b08b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 11:58:07 2016 -0400
+
+    small tweak
+
+commit 8cf53ad53b20865f4d3b8157d2e79d62f7298ab1
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 06:31:03 2016 -0400
+
+    rename
+
+commit 6c8182ee4d3e60ee46d6fece9a21c7f59ae0e61c
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 06:29:02 2016 -0400
+
+    deprecate $remove
+
+commit 45d94606ef02b2eb5af05137a44fe79a5fda881f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 06:15:37 2016 -0400
+
+    fix component root node class update
+
+commit 20f798fa32ac4481a82bcb024a0ee7dd64a264fd
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 05:45:14 2016 -0400
+
+    support arrays in Vue.set()
+
+commit e9425525ee5cd7f12d218cdf26f0671c82756ece
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 04:51:08 2016 -0400
+
+    fix v-show without transition
+
+commit 484978499f5b6bf82d0e4d40adf59c607013fbd5
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 04:48:25 2016 -0400
+
+    small optimization
+
+commit 3d8d3e8b56dfe40b7bdeeafb9075769254d9f37f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 04:44:33 2016 -0400
+
+    transition-on-appear for v-show
+
+commit 732c10a7e9559d26b0a54681d2bd90ddad63da52
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 04:34:21 2016 -0400
+
+    transition-on-appear
+
+commit d87987780a208fe3c65415a4a1cab58250ffa9a3
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 04:24:26 2016 -0400
+
+    rename
+
+commit aaa334d08f830c6411eb8d5c82b1df344f04dba7
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 02:45:14 2016 -0400
+
+    fix transition remove
+
+commit 050395408a43c72bf8f6f3e2c12426c1c7c59097
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 02:33:45 2016 -0400
+
+    improve transition default value handling
+
+commit 97f989aef5273efd790f326cb8b01113e1b872eb
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 02:22:46 2016 -0400
+
+    improve transition/v-show interaction
+
+commit e1f48a613439eed0c52c3ed75ecf607e1eafdebe
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 02:11:55 2016 -0400
+
+    support transitions on v-show
+
+commit 58b1b752010af73b77234865dab30a5449620a04
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 00:42:31 2016 -0400
+
+    improve runtime directive handling
+
+commit 508fd4401c753cbdfbe7149a5a40a92b71920f50
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 21 00:08:31 2016 -0400
+
+    rename
+
+commit c4a933c1a9469674fc8624677107004e63ad5437
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 22:34:23 2016 -0400
+
+    update package.json decription
+
+commit 48a5b429c031f7b8bc4b886f63263ca0d29e7ea7
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 22:33:07 2016 -0400
+
+    fix create hooks duplicate invocation
+
+commit 3f2fb1fb03d6689d78340310415b420462f48ba0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 22:32:57 2016 -0400
+
+    fix addStyleBinding helper
+
+commit da42ca820387dd73e85d28e6eb9d59a4f629aea4
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 18:29:59 2016 -0400
+
+    add e2e test for modal
+
+commit 7f7040c156951b392fb6ef75d15be65fd83007a0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 18:27:24 2016 -0400
+
+    restructure
+
+commit bc0df1042bef1aa94bde2554cf2f9c5e42c2c248
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 18:19:32 2016 -0400
+
+    use isDef
+
+commit 4c6b843f73116f8d0648f775cd97f4c2b71d6a74
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 18:18:41 2016 -0400
+
+    fix child component nodes hook invocations
+
+commit 23c253012f8f58848c33445f4f8ea045453029bf
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 17:32:01 2016 -0400
+
+    fix listeners
+
+commit f96b189504593c8b701837a2673c65a263986244
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 17:23:03 2016 -0400
+
+    wip
+
+commit 1b9343f7e0d3930d85419b97a03998583297c083
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 17:18:07 2016 -0400
+
+    wip
+
+commit 83210dfd5c5a4df3ad6e8ebaac260327b4fc432e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 15:53:14 2016 -0400
+
+    should use production version in benchmarks
+
+commit 3de33b338d3f8afbdb950db1cd4a0c16543c6a98
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 15:06:45 2016 -0400
+
+    fix ref
+
+commit b28888d22e83d5e79ced2056b6cd3d71e33f8ca3
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 14:35:42 2016 -0400
+
+    use text/x-template for modal example
+
+commit 2ae27c3012c26e355a796ca2db8ce5e1067597be
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 14:33:19 2016 -0400
+
+    fix firebase example leave transition
+
+commit 10ac41a0aff8041f206fb814e6ef037b93cef182
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 14:26:34 2016 -0400
+
+    add modal example
+
+commit 0a9fa69a0188e48fe017a4b0bc73f27961db87d6
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 13:27:17 2016 -0400
+
+    vnode.data.child -> vnode.child
+
+commit a7737c821c31236db1445f98ee65cd3c28521c91
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 13:17:47 2016 -0400
+
+    child component sets parent vnode.elm
+
+commit d2fa013ba47078c9a64d1e91d2ca11c5d1664c7e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 00:18:29 2016 -0400
+
+    reduce indent
+
+commit 49ab77cb97c327a8bae5c3c74189fdc1eaa189c9
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 20 00:12:33 2016 -0400
+
+    fix enterActiveClass apply timing
+
+commit 873c24cc64be716546c0edfa6cc02b854a792cca
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 23:53:48 2016 -0400
+
+    js transition hooks
+
+commit f200e809c07af966911344eaf394eeb2c52e8b39
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 23:18:47 2016 -0400
+
+    add leaveActiveClass
+
+commit 2a7c44f7af2583f2c0e42cea6040b51cc7ae07e5
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 23:06:04 2016 -0400
+
+    ensure enter and leave transitions happen simultaneously
+
+commit 7b97d97e2fff49c84fc5048eda9d5ab8daf0ec7f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 22:56:08 2016 -0400
+
+    dynamic component transition
+
+commit dd04e628b62b2f02cee9e182f9a0c2318a23a53b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 22:26:40 2016 -0400
+
+    leave transition
+
+commit 82bbbcfb83e614f12a6ee94be829944d31f319ff
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 20:13:47 2016 -0400
+
+    improve build script
+
+commit ae881f514b3860d3535bbf0dc5e8325d09fa50a9
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 19:45:15 2016 -0400
+
+    use umd for cjs build size check
+
+commit 9d5d4671e0974c9004f12dbb5c31e6920e6993a0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 19:31:39 2016 -0400
+
+    robust transition/animation detection
+
+commit ba9429fd76068ca3fc7d85152f9dc342417a5dd4
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 19:31:06 2016 -0400
+
+    make big table benchmark well formatted html
+
+commit bafc3c926938d4a05b49a9a0df05aae136ff6159
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 17:40:37 2016 -0400
+
+    transition wip
+
+commit 52ac04d2355a91957388a4bee336fa044d9ad57c
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 17:26:24 2016 -0400
+
+    transition wip
+
+commit 79e164084ba60bf5b7cd1fdda7a875893c1c8ad5
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 17:04:10 2016 -0400
+
+    fix proxy has return value
+
+commit 3f9b3ec24bddc89c7a093950a1a281c428cc4184
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 15:10:13 2016 -0400
+
+    remove unneeded file
+
+commit 8e32090a8adbd315b76ff169a0457cc5735f6dc6
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 13:04:55 2016 -0400
+
+    render should be a reserved tag too
+
+commit 7926f6ae83a967edca1a3c812602327f4ff32a18
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 13:04:43 2016 -0400
+
+    guard on
+
+commit 95a9282b20ed963a329fa4ecf9f6f96929308290
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 11:07:57 2016 -0400
+
+    early return in vdom update modules
+
+commit dc183eda1fbb1b664d1c41c349084d3507381b9e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 11:03:21 2016 -0400
+
+    process transition in compiler
+
+commit d6ea2e5dc8163b6c302a0c29b3615939bfda085a
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 04:25:19 2016 -0400
+
+    tweak
+
+commit 4fe5d94f913431be082140d31531fc27954f94fb
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 04:22:09 2016 -0400
+
+    tweak
+
+commit 9999e9516199a8187dfd85a1ff8e1d75085d1a5b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 04:20:56 2016 -0400
+
+    more refactor
+
+commit 5e7ebec193c6237a3759d041027c583f65ba76c7
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 04:05:32 2016 -0400
+
+    improve proxy detection
+
+commit 2082eb9290b30a4ae2799d97e39df5dd7f95ac1e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 03:52:58 2016 -0400
+
+    refactor wip
+
+commit 0879e994e56b5965ac1ac80dfcfcb01d5f903273
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 03:52:52 2016 -0400
+
+    drop stage-2
+
+commit 60de62bd55ea88f903da19a1e9393f021e0cd578
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 00:45:20 2016 -0400
+
+    tweak
+
+commit 42f13012231c2b82eff9fb97718bfc3b6bc72802
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 19 00:31:40 2016 -0400
+
+    naive async components
+
+commit 5184f9b6ef6926dde79937bd9fcaa0c0563cac36
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 22:43:31 2016 -0400
+
+    ignore map
+
+commit bb2dc731a308c901bf39688d237f878a8b232ecb
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 22:41:07 2016 -0400
+
+    fix runtime build exports
+
+commit 50e9f6b3c9893985093a1981c7582e63defce0aa
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 22:36:19 2016 -0400
+
+    use custom babel preset
+
+commit e1fd82573b91988a7868278b584ecdd99e357c1b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 22:22:23 2016 -0400
+
+    naming
+
+commit 6816a6dc71d3f8aeb71561f059511bc3e144b2c4
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 22:19:13 2016 -0400
+
+    move svgNS to dom-updater
+
+commit 4512406f775a6c258fa13400358d25d8a37892c7
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 22:17:48 2016 -0400
+
+    restructure
+
+commit 44f9ae68c0c395ec3b747d5fcb70f49ee5b20576
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 20:24:17 2016 -0400
+
+    decouple createElement from DOM
+
+commit 3630bf10539576b56aa523c1edba7cac4eea2c4e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 18:44:33 2016 -0400
+
+    support <component :is="...">
+
+commit a1ebdbbb7a34f842d090e208863be7168eaa9803
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 18:17:28 2016 -0400
+
+    detect non-existent property access with ES6 Proxy
+
+commit df5a3477001b66cca472c88cc290e91ad4efad78
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 18:05:41 2016 -0400
+
+    move proxy/unproxy into observer
+
+commit af56242c3dafb35a9fa4efe009f4aa6ac1413a54
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 17:13:49 2016 -0400
+
+    component vnode tag should be related to the constructor id
+
+commit 20200de57755051838da7bf854dd8bbe5562eecc
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 17:13:24 2016 -0400
+
+    allow script tags
+
+commit 8e248ef35577c83ee5687919da196803616346f6
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 16:44:48 2016 -0400
+
+    support v-pre
+
+commit 5f06af55589235272db74406915ccd59b6f6be9b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 15:50:01 2016 -0400
+
+    document parser AST
+
+commit 887d037981ffda52034370f8d50422eda2a986b0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 14:32:22 2016 -0400
+
+    better template/render warning
+
+commit cbc6fe63a4ca3631e098fc375c9237909adbb145
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 14:26:16 2016 -0400
+
+    do not warn real custom elements
+
+commit c13bbcb32794fbb443a4f86d3b0526951ca3f7ba
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 13:41:26 2016 -0400
+
+    fix directive merging
+
+commit 122d1646c4258583e5679b8208f8af5a8e923e80
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 13:40:38 2016 -0400
+
+    warn against incorrect propsData usage
+
+commit d5914fe9d79ffe8d4c789e5c731b3389dff9d76a
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 01:29:07 2016 -0400
+
+    big table title
+
+commit 4fecfe2d8a47c5ac8da86fd9e8103dfefe88f621
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 01:26:58 2016 -0400
+
+    improve svg dots benchmark
+
+commit bf39f1973cb6d3024bc30f056b7d5345bf80e033
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 00:57:01 2016 -0400
+
+    fix big table matching
+
+commit 5174bb2bd8d14ba1af4476e8ece759f287dbc6b1
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 18 00:13:42 2016 -0400
+
+    better IE9 v-model support
+
+commit aef93b3152e89d9e237d23aab64735039e57863f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 23:56:31 2016 -0400
+
+    tweak
+
+commit 6e9d332737419501ec7a40a4d300b06cd28b35a1
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 23:46:43 2016 -0400
+
+    handle v-model runtime composition event check & IE9
+
+commit 5d799abd7534b4cf86a148de6a4e4b030f6f8b80
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 23:00:08 2016 -0400
+
+    prefix sniffing for :style
+
+commit 86bc00e0e57076a1a7a6d64ddb3f97d1a455be46
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 22:44:54 2016 -0400
+
+    handle style array syntax
+
+commit 93498ab3d01fceb616fd3311d5129a6a9702ddb3
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 22:37:10 2016 -0400
+
+    handle circular refs in deep watch
+
+commit 6fc97fc6b94a262e104ab76698c69aa228230ac8
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 22:27:40 2016 -0400
+
+    handle xlink
+
+commit 24ef7f489a0f2452266974b1f01648e504e7bc96
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 22:14:20 2016 -0400
+
+    use for in where Object.keys isn't necessary
+
+commit cbbe65f3ae2d040e7f2051501977c58eeb3a3d10
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 21:33:20 2016 -0400
+
+    handle attribute interpolation
+
+commit b58ec1f9dba545ed9ba55d3b5cd0fc0a39a28f3e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 20:14:54 2016 -0400
+
+    handle enumerated attrs
+
+commit e9dbf875d9eb334a2027397698ee3dad2881e87e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 20:10:43 2016 -0400
+
+    extract shared utils
+
+commit fb2105725d237b9a3c2575c7bb74da9f2a12a92c
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 19:50:12 2016 -0400
+
+    move things around a bit
+
+commit c11a706bbf2a5c139ed8188950ec5dcf2eaa2de6
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 19:03:29 2016 -0400
+
+    v-text
+
+commit 368b2ff03a61fa4879ea4c69ba4b9fa71387d298
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 19:00:42 2016 -0400
+
+    object and range v-for
+
+commit 50efdc5799fd0cc2ba8b593bedbc53c9ba4ab5f0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 18:14:20 2016 -0400
+
+    v-for iterator syntax
+
+commit 0f3cbe6fa093e18675dbd3be89c365f19c85e5a9
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 17:28:21 2016 -0400
+
+    handle root props
+
+commit d6bef7957541e38cec3051eb4d8c54bda3280eaf
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 17:05:08 2016 -0400
+
+    convert default props
+
+commit 7fc68b4fd6027ead4987b686f6e8f752c9b819aa
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 15:34:13 2016 -0400
+
+    remove filter from config asset list
+
+commit 2aecd9021440ab68b6225daf4bca778dbf1b4efe
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 15:31:20 2016 -0400
+
+    remove el
+
+commit 7b2dc500b7a06381716639acea21d0fcf3b8b732
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 15:30:18 2016 -0400
+
+    unify v-ref/v-el, and handle v-ref on/inside v-for
+
+commit c2ad444982541faa8b7e0a652e68d4d0f6ef4bc6
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 14:46:58 2016 -0400
+
+    adjust context detection, ensure proper context in manual render functions
+
+commit 78e82bb8e454fcac088f4b40ec66e424c84dab89
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 14:26:46 2016 -0400
+
+    tweak
+
+commit f42085cab13c52583c1e17a817d9a7e6fbd76597
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 17 02:32:40 2016 -0400
+
+    copyright year
+
+commit 0e5b7eeea775070d507a15b6c25923e55db10b58
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 23:20:44 2016 -0400
+
+    remove log
+
+commit d3c64fa6a67faf610466277caf9c839dd11d1934
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 23:20:39 2016 -0400
+
+    only diff data if props did not change
+
+commit a1e2dfc488b2e5f63ae49eb484134090e9ee80fc
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 22:51:30 2016 -0400
+
+    update build script
+
+commit d2ca5c5e8ad7b10b1a886c3acc50f4936bffa102
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 22:44:32 2016 -0400
+
+    make compiler warning customizable
+
+commit 91455a6618c4c34e5d8b3f8299f427d3b612c142
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 20:24:59 2016 -0400
+
+    prop validation
+
+commit fe13e21d1f8bbdccd3574d698e3c9d7274e5e197
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 18:56:21 2016 -0400
+
+    move on into directives
+
+commit 3ca2c92920e27d7911424bda9dca54c04e24869e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 18:53:29 2016 -0400
+
+    restructure global api
+
+commit 1deceda17531d24bd7c3b6a6d1091bc475a6115b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 18:41:46 2016 -0400
+
+    move lifecycle hooks into config
+
+commit ea18ba55a816c78f54b7639a62cc55bdcdc6296b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 18:31:08 2016 -0400
+
+    bench component order
+
+commit ca81482c62d3fc5ed618ed252e309d73cb10259b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 18:30:16 2016 -0400
+
+    fix attr codegen
+
+commit 583a7bb0d155faff16a1b73b835b5a79907ed2c9
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 18:29:15 2016 -0400
+
+    fix root instance ready
+
+commit d018a726a63ae9fc7dfc815d560e1987032a6eac
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 18:21:35 2016 -0400
+
+    el
+
+commit 403e2380b8d3c430ac67e6a072f159bcf8c00b5e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 17:34:07 2016 -0400
+
+    fix toString
+
+commit 09a4ba84a9e4a0219423c85599fea87c1d34737d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 17:18:12 2016 -0400
+
+    refs
+
+commit cec21966579a09cab20876c4266ad6d227cf0233
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 16:14:45 2016 -0400
+
+    warn against duplicate keys
+
+commit 9db07d35a1b07f17baf8d3fc52ccbd72e0925f01
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 14:38:11 2016 -0400
+
+    tweak bench
+
+commit 7ce33d4684d6a97067012b8659d3cb6be6c2a77c
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 14:29:36 2016 -0400
+
+    tweak bench
+
+commit 230aff183a4af5a7c35d37d8f9c65b8da07ed25f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 14:27:24 2016 -0400
+
+    improve table bench
+
+commit e666fb4ee1ee8e15f94d3065ead7a213fed98253
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 13:28:26 2016 -0400
+
+    tweak
+
+commit 2ef8d1028be7b9e80c4f3b53c8c8993599c28a9e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 13:26:17 2016 -0400
+
+    add e2e test for select2
+
+commit ceab86d9df3118e9e36fd00f2e92407b015e8e30
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 04:12:37 2016 -0400
+
+    add e2e tests
+
+commit 28abdf3d3018497206645224f8ab95ea9115035e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 04:00:44 2016 -0400
+
+    handle phantomjs parsing
+
+commit f135891f4d5d19e0b9e52b420e6011008238614f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 03:53:22 2016 -0400
+
+    fix prop unsetting in phantomjs 2
+
+commit 472784226d7ff2347ef972ed9b01e09b38340c9e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 03:08:23 2016 -0400
+
+    fix e2e tree
+
+commit 32ca8e7722cc46e0e24b812c893c5c7dc2108b8f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 03:07:08 2016 -0400
+
+    fix svg e2e
+
+commit 119286fb090796cd4a70802f84c0c3d98b181386
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 02:44:48 2016 -0400
+
+    setting up e2e
+
+commit 0c6c748d9df45341b5c787e9401c32536161feca
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 02:30:04 2016 -0400
+
+    use more descriptive function names
+
+commit 8ff21757a1a3eb10c9c239b2b92eff9711aa7b21
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 02:19:30 2016 -0400
+
+    remove log
+
+commit 849e9ba364f55b45c5ec6871087655b9f1569cb2
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 02:17:16 2016 -0400
+
+    fix ready hook
+
+commit 4d508dcbfa440459fb6bc331537c0c90278aa3a8
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 02:05:56 2016 -0400
+
+    fix things
+
+commit af1f1d349f8276d3fe0c38af34eafab2b0c50424
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 00:15:12 2016 -0400
+
+    tweak
+
+commit 61a5249a0e71008d7560d188b62efe36788619c1
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 00:07:26 2016 -0400
+
+    remove log, fix logic
+
+commit c16fc2c427b221510b51d98c1051460d2ffbe02e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sat Apr 16 00:05:46 2016 -0400
+
+    children render context
+
+commit 1df748d57d366ff426604e58a46897a2f49424aa
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 23:30:24 2016 -0400
+
+    thunkify children
+
+commit 55f3d6d3af65df178f2a2d608a19f463f62a2a3e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 23:19:05 2016 -0400
+
+    include full html element list
+
+commit 7fae1ba7ba8b8e349d9d0a0ae0b4652d4e4a4dc9
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 22:46:18 2016 -0400
+
+    optimize update order
+
+commit 38204b747dad3c05c63401e2a27ef846bcb998bc
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 22:22:57 2016 -0400
+
+    fix event update
+
+commit 542035f3c1550bf4d733a7b9c161cdb8db63740f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 22:13:55 2016 -0400
+
+    tweak diff parent data
+
+commit 5b30f3eab89db88cb61894de617bdce53e82393e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 21:49:08 2016 -0400
+
+    Revert "simplify array change detection"
+    
+    This reverts commit 5590378d7fac1178be7fff1cd150f45893725325.
+
+commit f3970f8c5a5b2bfaa0f757fae3b0b470b08fb7b6
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 21:48:55 2016 -0400
+
+    use null check for old attrs
+
+commit 71ca7b7829ae5c7c3de14b603aea57554da57f42
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 21:39:07 2016 -0400
+
+    add benchmarks
+
+commit 0257afbb7f8a6a4c986a577e904225cef13e67ec
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 21:10:12 2016 -0400
+
+    proper component update diff
+
+commit d1fc82dbba86a91704269e62699f63d645dd8baf
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 19:36:58 2016 -0400
+
+    fix parent data merge
+
+commit 11a4addc1b50835ce55fb31f583e8f71bf54d45d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 18:37:58 2016 -0400
+
+    ready hook
+
+commit ab6776161b20713ce1aae69209da26c9850227e9
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 18:30:09 2016 -0400
+
+    add updated select2 example
+
+commit 2fa6e6f73f81439374c02008fb4169b7df2f7b98
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 18:01:10 2016 -0400
+
+    support slot default content
+
+commit 0e940ac5af072e1c85b6346c43c20d0a66c75393
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 17:45:14 2016 -0400
+
+    fix update props
+
+commit fdfcb9319970298e0c2f4318e6360db1b8dd3d8e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 17:13:11 2016 -0400
+
+    cache camelize and hyphenate
+
+commit 57bb93ef02de063dc12d375b0fc2ca25063b5fc8
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 17:04:41 2016 -0400
+
+    should only call updated after mount
+
+commit c12ddd9ab9f66bdbad8d5f91c2796f6cfe0a659c
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 17:00:11 2016 -0400
+
+    update props checking
+
+commit eea62a23b247f97b4625008910432ebb4d81662e
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 16:20:35 2016 -0400
+
+    add examples
+
+commit 7721f925236e4cd3db8b2a18eac91b79af755167
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 16:19:30 2016 -0400
+
+    support v-html
+
+commit 40f5f3d8b46bf32bedfc8dbd895a338b53e7238c
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 15:36:02 2016 -0400
+
+    move webpack config into build
+
+commit 054c2c3de2976c8f87b7a52980bc89c12d3d90ee
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 15:35:47 2016 -0400
+
+    fix attr merging
+
+commit b6a1db88b87fb88b1317f4046df19d94623b672d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 15:21:58 2016 -0400
+
+    desc
+
+commit 0bfa3aa3c610515c9db74be705216fedbfdbaac7
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 15:21:25 2016 -0400
+
+    name
+
+commit b995ed3c9bb9af2560c032d9fc6295ef1a86d21d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 14:45:22 2016 -0400
+
+    support v-else
+
+commit 5590378d7fac1178be7fff1cd150f45893725325
+Author: Evan You <yyx990803@gmail.com>
+Date:   Fri Apr 15 14:09:44 2016 -0400
+
+    simplify array change detection
+
+commit 1a35cf4a21e8c8e897c2d6f291b99376b12b9fac
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 22:55:29 2016 -0400
+
+    support template slot
+
+commit e9ae8187c2be7e03da425a23545b4523eca70c45
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 22:27:37 2016 -0400
+
+    fix children flattening
+
+commit 57f4b73005fe355d43ebea7b0e933dd16c6ef9fb
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 22:18:23 2016 -0400
+
+    fix watch option string
+
+commit dca992ab95f181b8817dc8e33b6c5cdd717f5762
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 21:47:44 2016 -0400
+
+    fix lint
+
+commit 4e86d3aba9d734bf2b50327933d221f3ceb522f2
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 21:44:45 2016 -0400
+
+    fix child component keys
+
+commit be9e16e20fce0d6c9b5ab72be02894dc05a2734f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 19:52:32 2016 -0400
+
+    handle component listeners
+
+commit 1cbaeb7d67d68bd0b67383c5e19f9b9551b0c648
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 18:27:07 2016 -0400
+
+    fix child patching
+
+commit 56073ca8532d90706cd50b8a3177011093b01675
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 17:22:06 2016 -0400
+
+    make prop bindings immutable
+
+commit 7c3fa3c2bb48a29c4d8bb427752a402a1668acb8
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 14:34:28 2016 -0400
+
+    trim ending whitespace
+
+commit 48f328bcaf2ebcc256d1c9114cf9cc2da54f15ae
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 10:10:24 2016 -0400
+
+    avoid conversion when setting props
+
+commit 5c1063a5e4167d1938febc4d4fd4f4edee260505
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 09:59:55 2016 -0400
+
+    make props reactive
+
+commit 1476c4a58d41f62e01651ff6a712723fadc84a15
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 09:52:15 2016 -0400
+
+    svg
+
+commit 5970dbd2f5694efb1328789f4f0f83d89a5e4beb
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 09:04:17 2016 -0400
+
+    fix dynamic props
+
+commit e223b87bd390e99061d4a742424455b7da316be2
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 08:59:29 2016 -0400
+
+    only preserve whitespace if it is not right after starting tag
+
+commit 8218eae1f91ab3d777b594821c55a687f647ca9b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 08:50:53 2016 -0400
+
+    props
+
+commit 7b539b8f8ad5cf84aea9198f9c0ad6471b179ae2
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 08:13:10 2016 -0400
+
+    remove thunk
+
+commit d6c5abbf35af32ee6a166fc3e63e2b25343a0a61
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 08:10:47 2016 -0400
+
+    slots
+
+commit 9a101588cbc7ca096e9aa61dcd4f4856ff6ec612
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 07:35:58 2016 -0400
+
+    warn unkown element
+
+commit 84ce91df72928f622ba993ee89e41a642eb92fb0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 07:21:09 2016 -0400
+
+    component resolution
+
+commit 8bc6915ce129b7642121c8462222d375343b9d3a
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 07:02:18 2016 -0400
+
+    parent/children
+
+commit f5fcfb63f23a3cadad4da6a3ec465bb87429949d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 06:40:37 2016 -0400
+
+    fix child component destroy
+
+commit 058c555dac875d1c979b92ccaeb36412d6912c82
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 05:35:17 2016 -0400
+
+    tweak
+
+commit 5c3edf850bcf7dacf0fd4d6b625fce2e937ebe93
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 05:34:16 2016 -0400
+
+    fix child update check
+
+commit 5ce49792e29827d4b7964fe5fa94453fef88faa6
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 05:26:52 2016 -0400
+
+    first component rendered!
+
+commit f2c8880041bd845b4af28ed20e2f67c2e2c8d6ff
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 05:21:48 2016 -0400
+
+    component wip
+
+commit 102b6f12cecac2a8a9767bd89848ba7d7e3e5ed2
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 01:16:50 2016 -0400
+
+    compiler should output code (move function generation into mount)
+
+commit 753436c162f770adfec8019e6b8b8231bf3321ff
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 01:12:25 2016 -0400
+
+    code cleanup
+
+commit 134b9f8dae1dfda4bc0d7fb855fc5d8017eb63ff
+Author: Evan You <yyx990803@gmail.com>
+Date:   Thu Apr 14 00:54:00 2016 -0400
+
+    add entities dependency
+
+commit 55faec9fe56db7a13756d1e143ff3423fbe26421
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 21:04:38 2016 -0400
+
+    fix runtime directive unbind
+
+commit 3e39d7647d68169fac97f0f34c01d962200480e3
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 20:54:27 2016 -0400
+
+    allow registering custom compile-time directives
+
+commit beb519cb4f940e4ddd9e792540b760208e53191d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 20:52:47 2016 -0400
+
+    add unbind hook for runtime directives
+
+commit 0b5e962943e88d6b5bc7b5c06851b2983d6201be
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 20:50:34 2016 -0400
+
+    fully support todomvc
+
+commit 93978f8469f8e48d00931a528c89259ed04fd233
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 20:37:13 2016 -0400
+
+    fix multiple events
+
+commit 8cf836f2ecb876a17305287cb18e7009555c11f3
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 20:31:05 2016 -0400
+
+    directives wip
+
+commit a9d74c1416b4c1fdbbb8de09070711979ef7665b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 18:47:55 2016 -0400
+
+    runtime directive codegen
+
+commit 3dea52f762d8c386cddb43784c661f0ca94f77b3
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 18:33:49 2016 -0400
+
+    restructure
+
+commit bdf9f8c33a7444c924edbafa12e80aecd409ee96
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 18:16:50 2016 -0400
+
+    tweak
+
+commit 9389b1b7ed7a40dfa31f5f5da1541c09f624ec16
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 18:12:40 2016 -0400
+
+    fix model
+
+commit 5228ccb5fd84cadc1f85dcfab8dad61222692526
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 17:55:22 2016 -0400
+
+    wip
+
+commit 5c31f65684f5a8f048ce6f317e948a4705e818a5
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 16:38:40 2016 -0400
+
+    move template specific logic into template-parser
+
+commit 1af8c6fc11957a236047fde395bf6c831dddc3b6
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 14:55:32 2016 -0400
+
+    separate template-parser and html-parser
+
+commit adb81363dd369276c088fb733d8097d10a55d33d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 06:45:34 2016 -0400
+
+    update build for compiler
+
+commit 03804cefa78cc580a40bc7e02388672f128dda80
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 06:24:51 2016 -0400
+
+    support watch option
+
+commit 23c1c6105302a087647ee9c8a0e1b9746731c32f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 06:11:07 2016 -0400
+
+    support embedded render
+
+commit 9eab970f3a1da108d3c26691618c430a3ecfdd7b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 04:34:37 2016 -0400
+
+    cleanup
+
+commit 914da492bf456de05205d0a0f82ecc4aa8719f6b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 03:46:45 2016 -0400
+
+    support svg
+
+commit c147e355f00c525f0c09e9aa82ac89632c89a0b0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Wed Apr 13 03:18:39 2016 -0400
+
+    restructure
+
+commit 0694a9bfb63350d2cb7ed992fee82e6a632ec74a
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 23:23:32 2016 -0400
+
+    lifecycle hooks
+
+commit d04dbab15ecc0ac4aed8a062dfa7a322c47bed81
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 23:06:42 2016 -0400
+
+    handle template edge cases
+
+commit 448f3a6a78a109f9f4faab9277c6594618cb2dc5
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 22:59:09 2016 -0400
+
+    warn against multiple root elements
+
+commit 0e1ac079198044f22ea6c92d669a9a5f2336e9e0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 22:51:49 2016 -0400
+
+    support template option
+
+commit 314f25eaf34312cd6fd64667220d5b3d15a56248
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 22:22:37 2016 -0400
+
+    progress
+
+commit 7b8546378ce7291ebac85baafacc29289a4976b4
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 22:08:19 2016 -0400
+
+    watch & events
+
+commit 6bb90961fdffa62a1b393a5f365de12d79beca61
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 21:44:24 2016 -0400
+
+    expose compile
+
+commit b5800b274c472897e64184ea716566422b3046cb
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 21:41:12 2016 -0400
+
+    restructure instance
+
+commit 91a04ad0387755ad5a1f6f862e1c5d6ae7276874
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 21:21:50 2016 -0400
+
+    refactor state
+
+commit df97df1c0538b7c401f8e0380ebcef57fecb6e07
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 20:44:54 2016 -0400
+
+    v-model modifiers
+
+commit 4ea6ae3177e539ba3856c9ccbbfe0e0d320db2dc
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 20:38:03 2016 -0400
+
+    use object format modifiers
+
+commit 9af074577906989c7940f56a9853ae0fb97bf2ee
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 20:30:47 2016 -0400
+
+    avoid html decoding empty strings
+
+commit fa46e8f88ee9316370d593ccbbbfcc0a068fdf4b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 20:15:56 2016 -0400
+
+    fix caching with preserveWhiteSpace
+
+commit 0ab0600599dcc593695560382af1c1a8119ce848
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 19:42:15 2016 -0400
+
+    restructure
+
+commit c9c4291586df45b826c7347125c3ef23158989ee
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 19:05:02 2016 -0400
+
+    remove some useless code
+
+commit f1bdaa8bf428a0a520d94244643c770b3e5a60b1
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 19:02:30 2016 -0400
+
+    properly initialize state
+
+commit 5d585676c6d2a15f6db7c322467650ebb7b28a1f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 19:02:21 2016 -0400
+
+    fix class initial application
+
+commit 68c99b26f22a890798ebd586a6ae3dddf064ffca
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 18:30:40 2016 -0400
+
+    lint it
+
+commit fe3761aad6e5f5cbfac39ae96b1a685f8b657380
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 18:11:03 2016 -0400
+
+    remove log
+
+commit d048b44ae2ace51bce28624b0a2a6e76e69d7ec7
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 18:10:41 2016 -0400
+
+    refactor so that compiler is decoupled from the rest of the codebase
+
+commit e91847644779d14e0f8d0d5b135069ed40c85621
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 18:03:45 2016 -0400
+
+    decode html entities in text nodes
+
+commit 7f7132ee0bd390cf7527a7f75d665b14ca638cd6
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 17:32:44 2016 -0400
+
+    support key modifiers
+
+commit c8c96a4248b9279b088d4cf5a92955814c97e789
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 17:00:29 2016 -0400
+
+    event modifiers
+
+commit e577a1aa3ccb6dc1a6c725f63fb7f7eb986257e2
+Author: Evan You <yyx990803@gmail.com>
+Date:   Tue Apr 12 15:19:31 2016 -0400
+
+    mvoe text parser into codegen helper
+
+commit 1c8afd26a9193f8e6455588e0da90a83dad41c13
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 22:53:13 2016 -0400
+
+    separate builds with/without compiler
+
+commit 7a4d30f62bad0cb644ce356c03ff6825b031c70c
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 22:18:04 2016 -0400
+
+    use more explicit naming
+
+commit 8c00a1d7247aeee00f37c063ff5a1ed40ecc7fe5
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 22:15:30 2016 -0400
+
+    implement all v-model types
+
+commit 6cca5ec8a86ed084448f81cad7e44f9682031a28
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 21:13:10 2016 -0400
+
+    refactor codegen
+
+commit b76bdfd4375b90bd99e04ac66f65c10f94f94b4d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 18:53:04 2016 -0400
+
+    include watcher Set enhancement
+
+commit ad11aa122cd09a4510fd9d8829e25f4a90b178c2
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 17:45:08 2016 -0400
+
+    fix syncness
+
+commit e094b00c2ebdb39541233978aa151a06afad6157
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 16:27:38 2016 -0400
+
+    add preserveWhitespace option
+
+commit 8f5a69be8a73ccaa426841f9914d0044aeb693a0
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 04:37:32 2016 -0400
+
+    rough v-model
+
+commit e30055eccdc8b5751a8afa02d0a9a5eb5885ce88
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 03:50:40 2016 -0400
+
+    use isObject
+
+commit cc57e967f5555d2226d2c8496a5c9f93c4c2b32d
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 02:24:34 2016 -0400
+
+    basic event handling
+
+commit d5c1c3a640b948eb5c8430ed8fdb0244db4a870f
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 01:00:19 2016 -0400
+
+    no need for escapeNewline
+
+commit cdfaa7b13125e5b85b5b4cba441b5f78061b3230
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 00:52:29 2016 -0400
+
+    no need for comment handler
+
+commit 551df9a3b3bdc856f6db88b470a26762aa763414
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 00:46:50 2016 -0400
+
+    cleanup
+
+commit 3d6b5fc935868a11d41faa0f486ff6aa0326732b
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 00:39:55 2016 -0400
+
+    fix things
+
+commit 7c24229fd7f42fbfd2cd607711dc14a01c623b84
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 00:34:49 2016 -0400
+
+    code cleanup
+
+commit 56607f081a41e4fd3f4732dfadcf242ea2f2a456
+Author: Evan You <yyx990803@gmail.com>
+Date:   Mon Apr 11 00:28:49 2016 -0400
+
+    move class rendering into vdom
+
+commit 69e94eb453ee0da21f9a0506d2f01269865a4776
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 10 23:54:53 2016 -0400
+
+    move flatten into vdom implementation
+
+commit c1a8267c947c28fe5774aa262cc0d5425937526a
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 10 22:48:17 2016 -0400
+
+    bump version
+
+commit a879ec06ef9504db8df2a19aac0d07609fe36131
+Author: Evan You <yyx990803@gmail.com>
+Date:   Sun Apr 10 22:47:28 2016 -0400
+
+    init
